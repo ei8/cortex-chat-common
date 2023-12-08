@@ -20,6 +20,8 @@ namespace ei8.Cortex.Chat.Common
 
         public DateTimeOffset? CreationTimestamp { get; set; }
 
-        public DateTimeOffset? LastModificationTimestamp { get; set; }
+        public DateTimeOffset? UnifiedLastModificationTimestamp { get; set; }
+
+        public bool IsCurrentUserCreationAuthor { get; set; }
     }
 }
