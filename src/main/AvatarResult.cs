@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ei8.Cortex.Chat.Common
 {
-    public class RegionResult
+    public class AvatarResult
     {
         public Guid Id { get; set; }
         public string Name { get; set; }
