@@ -6,7 +6,9 @@ namespace ei8.Cortex.Chat.Common
     {
         public Guid Id { get; set; }
 
-        public string Content { get; set; }
+        public Guid ContentId { get; set; }
+
+        public string ContentString { get; set; }
 
         public string SenderTag { get; set; }
 
